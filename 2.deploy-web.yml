@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: react-con
-        image: kickbell/front_site:1.0 # 우리가 도커 허브에 올린 이미지
+        image: kickbell/front_site:1.1 # 우리가 도커 허브에 올린 이미지
         resources:
           limits:
             memory: "128Mi"
